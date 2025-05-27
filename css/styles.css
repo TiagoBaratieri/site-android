@@ -53,3 +53,11 @@ a {
     color: var(--color-dark-green); /* Links gerais em verde escuro */
     font-weight: bold; /* Deixando todos os links em negrito, similar ao seu original */
 }
+
+/* --- 3. Header --- */
+.header-container {
+    background-color: var(--color-dark-green); /* Verde escuro para o header */
+    padding: var(--spacing-medium); /* Padding para espaçamento interno */
+    color: var(--color-white);
+    text-align: center; /* Centraliza o texto dentro do header */
+}
