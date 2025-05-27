@@ -210,3 +210,26 @@ section p {
     border-top-left-radius: var(--border-radius-base);
     border-top-right-radius: var(--border-radius-base);
 }
+
+.version-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: var(--font-size-small); /* Tamanho menor para os itens da lista */
+    color: var(--color-text-dark);
+    flex: 1; /* Permite que as listas se expandam igualmente */
+    /* Remove 'width: 200px;' para responsividade */
+}
+
+.version-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--spacing-xsmall);
+}
+
+.check-icon {
+    color: var(--color-dark-green); /* Cor do check em verde escuro */
+    font-size: var(--font-size-base); /* Tamanho base */
+    font-weight: bold;
+    margin-right: var(--spacing-small);
+}
