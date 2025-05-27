@@ -76,3 +76,18 @@ a {
     /* Removido margin e font-size diretamente aqui para controle melhor com media queries */
     margin-top: var(--spacing-small); /* Espaço acima da navegação */
 }
+
+.nav-container ul {
+    display: flex;
+    justify-content: center; /* Centraliza os itens da navegação */
+    gap: var(--spacing-small); /* Espaço entre os itens da lista */
+    list-style-type: none; /* Remove as bolinhas */
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap; /* Permite que os itens quebrem a linha em telas pequenas */
+}
+
+.nav-container li {
+    /* display: inline-block; Removido, flexbox no ul já trata isso */
+    margin: 0 var(--spacing-xsmall); /* Espaço horizontal entre os itens */
+}
