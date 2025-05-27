@@ -150,3 +150,14 @@ section p {
     border-radius: 5px; /* Bordas arredondadas */
     text-align: left; /* Alinha o texto à esquerda */
 }
+
+/* Estilos para containers de imagem */
+.img_container,
+.img_container_irina-blok,
+.img_container_bugdroid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: var(--spacing-medium) 0; /* Margem vertical para espaçamento */
+    width: 100%; /* Ocupa a largura total do pai */
+}
