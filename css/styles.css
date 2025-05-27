@@ -139,3 +139,14 @@ section p {
     margin-bottom: var(--spacing-medium);
     text-align: justify; /* Justifica o texto para um visual mais limpo */
 }
+
+/* Estilo para h3.title-news (subtítulos de notícias) */
+.title-news {
+    background-color: var(--color-secondary-green);
+    color: var(--color-dark-green); /* Cor do texto em verde escuro */
+    font-size: var(--font-size-medium);
+    margin: var(--spacing-medium) calc(-1 * var(--padding-container-mobile)) var(--spacing-medium) calc(-1 * var(--padding-container-mobile)); /* Estende o fundo */
+    padding: var(--spacing-small) var(--padding-container-mobile);
+    border-radius: 5px; /* Bordas arredondadas */
+    text-align: left; /* Alinha o texto à esquerda */
+}
