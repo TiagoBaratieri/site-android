@@ -271,6 +271,7 @@ footer {
     color: var(--color-dark-green); /* Links no footer em verde escuro */
 }
 
+
 @media (min-width: 769px) {
     body {
         padding: var(--spacing-xl); /* Mais padding em telas maiores */
@@ -322,5 +323,14 @@ footer {
 
     .check-icon {
         font-size: var(--font-size-large);
+    }
+}
+
+@media (min-width: 1024px) {
+    section {
+        max-width: 800px; /* Aumenta a largura máxima para seções */
+    }
+    .baseboard-container {
+        max-width: 700px; /* Aumenta a largura máxima para a seção "Quer aprender mais?" */
     }
 }
