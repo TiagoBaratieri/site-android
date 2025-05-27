@@ -17,4 +17,16 @@
     --font-size-large: 1.125rem; /* 18px */
     --font-size-xl: 1.5rem; /* 24px (para H1 talvez) */
 
+       /* Espaçamentos (Mobile-first, ajustado em media queries) */
+    --spacing-xsmall: 0.25rem; /* 4px */
+    --spacing-small: 0.5rem;   /* 8px */
+    --spacing-medium: 1rem;    /* 16px */
+    --spacing-large: 1.5rem;   /* 24px */
+    --spacing-xl: 2rem;        /* 32px */
+
+    /* Outros */
+    --border-radius-base: 8px;
+    --box-shadow-base: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --padding-container-mobile: 1rem; /* 16px */
+
 }
