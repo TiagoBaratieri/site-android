@@ -170,3 +170,31 @@ section p {
     display: block; /* Remove espaço extra abaixo da imagem */
     border-radius: 5px; /* Adiciona bordas arredondadas às imagens */
 }
+
+/* Tamanhos específicos de imagem (ajuste conforme necessário, mas max-width: 100% é a chave) */
+/* .img_container img { /* width: 296px; height: 200px; */ /* Pode remover se max-width: 100% for suficiente */
+/* .img_container_irina-blok img { /* width: 296px; height: 200px; */ /* Pode remover */
+/* .img_container_bugdroid img { /* width: 356px; height: 200px; */ /* Pode remover */
+
+/* Vídeo Container */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporção 16:9 (altura/largura) */
+    height: 0;
+    overflow: hidden;
+    margin: var(--spacing-large) 0; /* Margem superior e inferior */
+    border: 10px solid var(--color-dark-green); /* Borda verde escuro */
+    border-radius: var(--border-radius-base); /* Bordas arredondadas */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* --- 5. Seção "Quer aprender mais?" (baseboard-container) --- */
+/* Nota: Se transformou em uma <section>, a estilização de .baseboard-container já está definida acima */
+/* Reuso da classe .baseboard-container para o padding, margin, etc. */
