@@ -122,3 +122,20 @@ section {
     max-width: 700px; /* Limite de largura para o conteúdo da seção */
     width: 100%; /* Ocupa a largura disponível até o max-width */
 }
+
+/* Estilos para títulos de seções (H2) */
+section h2 {
+    color: var(--color-dark-green);
+    font-size: var(--font-size-large);
+    margin-bottom: var(--spacing-medium);
+    text-align: center; /* Centraliza o H2, como no seu original */
+}
+
+/* Estilos para parágrafos dentro de seções */
+section p {
+    font-size: var(--font-size-base);
+    color: var(--color-text-dark);
+    line-height: 1.6; /* Melhorar legibilidade */
+    margin-bottom: var(--spacing-medium);
+    text-align: justify; /* Justifica o texto para um visual mais limpo */
+}
