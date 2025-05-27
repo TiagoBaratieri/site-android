@@ -252,3 +252,21 @@ section p {
     margin-left: var(--spacing-xsmall);
     color: var(--color-dark-green);
 }
+
+/* --- 6. Footer --- */
+footer {
+    background-color: var(--color-secondary-green);
+    color: var(--color-black); /* Cor do texto do footer */
+    padding: var(--spacing-medium);
+    text-align: center; /* Centraliza o texto do footer */
+    margin-top: var(--spacing-large); /* Espaço acima do footer */
+}
+
+.title-footer { /* Se for um <p> no HTML, esta classe é boa */
+    font-size: var(--font-size-medium);
+    color: var(--color-black); /* Cor do texto do footer */
+}
+
+.title-footer a {
+    color: var(--color-dark-green); /* Links no footer em verde escuro */
+}
