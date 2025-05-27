@@ -66,3 +66,13 @@ a {
     font-size: var(--font-size-xl); /* Tamanho maior para o título principal */
     margin-bottom: var(--spacing-small); /* Espaço abaixo do h1 */
 }
+
+.header-container p {
+    font-size: var(--font-size-medium);
+    margin-bottom: var(--spacing-medium); /* Espaço abaixo do parágrafo */
+}
+
+.nav-container { /* Esta classe está na <nav> no HTML refatorado */
+    /* Removido margin e font-size diretamente aqui para controle melhor com media queries */
+    margin-top: var(--spacing-small); /* Espaço acima da navegação */
+}
