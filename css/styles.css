@@ -61,3 +61,8 @@ a {
     color: var(--color-white);
     text-align: center; /* Centraliza o texto dentro do header */
 }
+
+.header-container h1 {
+    font-size: var(--font-size-xl); /* Tamanho maior para o título principal */
+    margin-bottom: var(--spacing-small); /* Espaço abaixo do h1 */
+}
