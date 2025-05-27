@@ -103,3 +103,12 @@ a {
     background-color: rgba(255, 255, 255, 0.2); /* Fundo levemente transparente ao passar o mouse */
     text-decoration: none; /* Mantém sem sublinhado no hover */
 }
+
+/* --- 4. Main Content (Sections) --- */
+main {
+    flex-grow: 1; /* Permite que o main ocupe o espaço restante */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo das seções */
+    padding: var(--spacing-medium); /* Padding nas laterais do main */
+}
