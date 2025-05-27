@@ -161,3 +161,12 @@ section p {
     margin: var(--spacing-medium) 0; /* Margem vertical para espaçamento */
     width: 100%; /* Ocupa a largura total do pai */
 }
+
+.img_container img,
+.img_container_irina-blok img,
+.img_container_bugdroid img {
+    max-width: 100%; /* Garante que a imagem seja responsiva */
+    height: auto; /* Mantém a proporção */
+    display: block; /* Remove espaço extra abaixo da imagem */
+    border-radius: 5px; /* Adiciona bordas arredondadas às imagens */
+}
