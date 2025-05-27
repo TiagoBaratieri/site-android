@@ -198,3 +198,15 @@ section p {
 /* --- 5. Seção "Quer aprender mais?" (baseboard-container) --- */
 /* Nota: Se transformou em uma <section>, a estilização de .baseboard-container já está definida acima */
 /* Reuso da classe .baseboard-container para o padding, margin, etc. */
+
+.baseboard-container .title-baseboard { /* Estilo específico para o h3 dentro deste container */
+    font-size: var(--font-size-large); /* Tamanho maior para o título desta seção */
+    color: var(--color-text-dark); /* Cor do texto do título */
+    background-color: var(--color-green-light); /* Fundo verde claro */
+    /* Margem negativa ajustada para a variável do padding do container */
+    margin: calc(-1 * var(--padding-container-mobile)) calc(-1 * var(--padding-container-mobile)) var(--spacing-medium) calc(-1 * var(--padding-container-mobile));
+    padding: var(--spacing-small) var(--padding-container-mobile);
+    text-align: left;
+    border-top-left-radius: var(--border-radius-base);
+    border-top-right-radius: var(--border-radius-base);
+}
