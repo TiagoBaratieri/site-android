@@ -46,3 +46,10 @@ body {
     flex-direction: column; /* Conteúdo em coluna principal */
     min-height: 100vh; /* Garante que o body ocupe toda a altura da viewport */
 }
+
+/* Estilos de links padrão (geral) */
+a {
+    text-decoration: none;
+    color: var(--color-dark-green); /* Links gerais em verde escuro */
+    font-weight: bold; /* Deixando todos os links em negrito, similar ao seu original */
+}
