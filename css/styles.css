@@ -270,3 +270,57 @@ footer {
 .title-footer a {
     color: var(--color-dark-green); /* Links no footer em verde escuro */
 }
+
+@media (min-width: 769px) {
+    body {
+        padding: var(--spacing-xl); /* Mais padding em telas maiores */
+    }
+
+    .header-container {
+        padding: var(--spacing-xl); /* Mais padding no header */
+    }
+
+    .header-container h1 {
+        font-size: 3rem; /* Tamanho do h1 maior em desktop */
+    }
+
+    .header-container p {
+        font-size: var(--font-size-large);
+    }
+
+    main {
+        padding: var(--spacing-xl); /* Mais padding lateral no main */
+    }
+
+    section {
+        padding: var(--spacing-xl);
+    }
+
+    .title-news {
+        font-size: var(--font-size-large);
+        margin: var(--spacing-xl) calc(-1 * var(--spacing-xl)) var(--spacing-large) calc(-1 * var(--spacing-xl));
+        padding: var(--spacing-medium) var(--spacing-xl);
+    }
+
+    .baseboard-container .title-baseboard {
+        font-size: var(--font-size-xl);
+        margin: calc(-1 * var(--spacing-xl)) calc(-1 * var(--spacing-xl)) var(--spacing-large) calc(-1 * var(--spacing-xl));
+        padding: var(--spacing-medium) var(--spacing-xl);
+    }
+
+    .android-versions-list-container {
+        flex-direction: row; /* Listas lado a lado em telas maiores */
+        justify-content: space-around;
+        gap: var(--spacing-xl); /* Mais espaço entre as colunas */
+        padding: var(--spacing-large) 0;
+    }
+
+    .version-list {
+        font-size: var(--font-size-base); /* Tamanho padrão para listas em desktop */
+        /* min-width: 200px;  Pode adicionar se quiser garantir um mínimo, mas flex:1 geralmente é suficiente */
+    }
+
+    .check-icon {
+        font-size: var(--font-size-large);
+    }
+}
