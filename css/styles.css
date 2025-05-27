@@ -112,3 +112,13 @@ main {
     align-items: center; /* Centraliza o conteúdo das seções */
     padding: var(--spacing-medium); /* Padding nas laterais do main */
 }
+
+section {
+    background-color: var(--color-white);
+    border-radius: var(--border-radius-base);
+    box-shadow: var(--box-shadow-base);
+    padding: var(--padding-container-mobile); /* Padding interno da seção */
+    margin-bottom: var(--spacing-large); /* Espaço entre as seções */
+    max-width: 700px; /* Limite de largura para o conteúdo da seção */
+    width: 100%; /* Ocupa a largura disponível até o max-width */
+}
