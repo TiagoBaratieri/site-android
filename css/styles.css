@@ -37,3 +37,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: var(--font-family-primary);
+    background-color: var(--color-primary-green);
+    /* Para centralizar o conteúdo principal da página */
+    display: flex;
+    flex-direction: column; /* Conteúdo em coluna principal */
+    min-height: 100vh; /* Garante que o body ocupe toda a altura da viewport */
+}
