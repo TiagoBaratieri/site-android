@@ -233,3 +233,22 @@ section p {
     font-weight: bold;
     margin-right: var(--spacing-small);
 }
+.link-paragraph {
+    font-size: var(--font-size-base);
+    color: var(--color-text-dark);
+    margin-top: var(--spacing-medium);
+    text-align: left;
+}
+
+.link-paragraph a {
+    color: var(--color-dark-green);
+    font-weight: bold;
+    display: inline-flex; /* Para alinhar o ícone */
+    align-items: center;
+}
+
+.link-icon {
+    font-size: var(--font-size-base);
+    margin-left: var(--spacing-xsmall);
+    color: var(--color-dark-green);
+}
