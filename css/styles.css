@@ -91,3 +91,15 @@ a {
     /* display: inline-block; Removido, flexbox no ul já trata isso */
     margin: 0 var(--spacing-xsmall); /* Espaço horizontal entre os itens */
 }
+
+.nav-container a {
+    color: var(--color-white); /* Cor branca para links da navegação */
+    padding: var(--spacing-xsmall) var(--spacing-small); /* Padding para a área clicável do link */
+    border-radius: 5px; /* Bordas arredondadas para os links da nav */
+    transition: background-color 0.3s ease; /* Transição suave para o hover */
+}
+
+.nav-container a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Fundo levemente transparente ao passar o mouse */
+    text-decoration: none; /* Mantém sem sublinhado no hover */
+}
