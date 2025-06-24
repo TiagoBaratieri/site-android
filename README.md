@@ -33,10 +33,10 @@ Para ver o projeto em funcionamento, você pode:
 
 ## 📸 Prévia do Projeto
 
-<div align="center">
-  <img src="https://github.com/TiagoBaratieri/site-android/blob/main/imagens/n1.png" width="500" />
-  <img src="https://github.com/TiagoBaratieri/site-android/blob/main/imagens/n2.png" width="500" />
-  <img src="https://github.com/TiagoBaratieri/site-android/blob/main/imagens/noticias.png" width="500" />
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+  <img src="https://github.com/TiagoBaratieri/site-android/blob/main/imagens/n1.png" alt="Página inicial" style="width: 300px; max-width: 100%; height: auto;" />
+    <img src="https://github.com/TiagoBaratieri/site-android/blob/main/imagens/n2.png" alt="Página inicial" style="width: 300px; max-width: 100%; height: auto;" />
+    <img src="https://github.com/TiagoBaratieri/site-android/blob/main/imagens/noticias.png" alt="Página inicial" style="width: 300px; max-width: 100%; height: auto;" />
 </div>
 
 ## 🧑‍💻 Autor
@@ -44,8 +44,8 @@ Para ver o projeto em funcionamento, você pode:
 **Tiago Baratieri**
 * [GitHub](https://github.com/TiagoBaratieri)
 
-## 📄 Licença
+[![GitHub Issues](https://img.shields.io/github/issues/TiagoBaratieri/dscatalog-bootcamp?style=for-the-badge)](https://github.com/TiagoBaratieri/dscatalog-bootcamp/issues)
+[![GitHub Forks](https://img.shields.io/github/forks/TiagoBaratieri/dscatalog-bootcamp?style=for-the-badge)](https://github.com/TiagoBaratieri/dscatalog-bootcamp/network/members)
+[![GitHub Stars](https://img.shields.io/github/stars/TiagoBaratieri/dscatalog-bootcamp?style=for-the-badge)](https://github.com/TiagoBaratieri/dscatalog-bootcamp/stargazers)
+[![GitHub License](https://img.shields.io/github/license/TiagoBaratieri/dscatalog-bootcamp?style=for-the-badge)](https://github.com/TiagoBaratieri/dscatalog-bootcamp/blob/main/LICENSE)
 
-Este projeto está licenciado sob a licença MIT. Para mais detalhes, veja o arquivo [LICENSE](LICENSE) neste repositório.
-
----
